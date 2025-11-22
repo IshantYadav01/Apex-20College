@@ -2,7 +2,7 @@ export default function LearningPartners() {
   return (
     <section className="py-20 px-4 relative overflow-hidden">
       <div className="absolute top-0 left-[-171px] w-[1878px] h-[305px] bg-apex-light-gray opacity-70 rotate-[29deg]" />
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         <h2 className="text-center text-[35px] font-medium mb-16">
           <span className="text-apex-orange">OUR</span>{" "}
@@ -23,7 +23,14 @@ export default function LearningPartners() {
               />
             </div>
             <p className="text-2xl text-[#5D5D5D] font-medium">
-              mySecondTeacher is a multiple award-winning academic platform developed in Nepal and used globally by students, parents and educators. It helps enhance academic experiences by delivering online lessons and resources, and managing assignments. It also provides real-time insights into students' learning behaviour, allowing teachers and parents to identify areas of improvement and address them promptly. This facilitates personalised attention and timely interventions, leading to better academic outcomes.
+              mySecondTeacher is a multiple award-winning academic platform
+              developed in Nepal and used globally by students, parents and
+              educators. It helps enhance academic experiences by delivering
+              online lessons and resources, and managing assignments. It also
+              provides real-time insights into students' learning behaviour,
+              allowing teachers and parents to identify areas of improvement and
+              address them promptly. This facilitates personalised attention and
+              timely interventions, leading to better academic outcomes.
             </p>
           </div>
 
@@ -40,7 +47,13 @@ export default function LearningPartners() {
               />
             </div>
             <p className="text-2xl text-[#5D5D5D] font-medium">
-              ING Skill Academy is renowned for its transformative programmes and cutting-edge resources. Through workshops, webinars, and practical training, it addresses a wide range of educational needs, from skill enhancement to career initiation. Serving over 40,000 students from more than 200 schools, it nurtures a vibrant learning environment complemented by on-site amenities and a strong community spirit.
+              ING Skill Academy is renowned for its transformative programmes
+              and cutting-edge resources. Through workshops, webinars, and
+              practical training, it addresses a wide range of educational
+              needs, from skill enhancement to career initiation. Serving over
+              40,000 students from more than 200 schools, it nurtures a vibrant
+              learning environment complemented by on-site amenities and a
+              strong community spirit.
             </p>
           </div>
         </div>

@@ -3,12 +3,14 @@ export default function ApexOverview() {
     <section className="py-20 px-4 relative overflow-hidden">
       <div className="absolute top-0 left-[-171px] w-[1878px] h-[305px] bg-apex-light-gray opacity-70 rotate-[29deg]" />
       <div className="absolute bottom-20 left-[-178px] w-[1878px] h-[305px] bg-apex-light-gray opacity-70 rotate-[-30deg]" />
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         <h2 className="text-center text-[35px] font-medium mb-4">
           <span className="text-apex-orange">THE APEX</span>
         </h2>
-        <h3 className="text-center text-[35px] font-bold text-apex-orange mb-16">OVERVIEW</h3>
+        <h3 className="text-center text-[35px] font-bold text-apex-orange mb-16">
+          OVERVIEW
+        </h3>
 
         <div className="h-[30px] bg-apex-maroon w-full mb-12" />
 
