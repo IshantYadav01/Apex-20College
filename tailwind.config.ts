@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        apex: {
+          orange: "#F08405",
+          maroon: "#8A181A",
+          gray: "#606060",
+          "light-gray": "#D9D9D9",
+          "bg-gray": "#F6F8F8",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
