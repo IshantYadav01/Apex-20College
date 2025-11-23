@@ -21,7 +21,9 @@ export default function Header() {
             to={link.path}
             onClick={() => setActiveLink(link.path)}
             className={`text-[20px] font-medium whitespace-nowrap transition-all duration-300 hover:text-apex-orange ${
-              activeLink === link.path ? "text-apex-orange border-b-2 border-apex-orange" : "hover:opacity-80"
+              activeLink === link.path
+                ? "text-apex-orange border-b-2 border-apex-orange"
+                : "hover:opacity-80"
             }`}
           >
             {link.label}

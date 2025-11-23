@@ -3,24 +3,29 @@ import { Link } from "react-router-dom";
 export default function AcademicPrograms() {
   const programs = [
     {
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/ac59b97085ee6438e3eed73094141a7509ef52c6?width=1321",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/ac59b97085ee6438e3eed73094141a7509ef52c6?width=1321",
       title: "Business Administration",
       subtitle: "Bachelor in",
-      description: "Secure your future with Apex's BBA program. Our expert faculty and comprehensive curriculum equip you with the skills to thrive in today's fast-paced business world.",
+      description:
+        "Secure your future with Apex's BBA program. Our expert faculty and comprehensive curriculum equip you with the skills to thrive in today's fast-paced business world.",
       isFeatured: true,
     },
     {
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/10d5cef435c73acc1a3d410f8a7257b890083799?width=1060",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/10d5cef435c73acc1a3d410f8a7257b890083799?width=1060",
       title: "Program 2",
       isFeatured: false,
     },
     {
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/4833c3bdb07d1626f7a65926d705077034aae0ef?width=1060",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/4833c3bdb07d1626f7a65926d705077034aae0ef?width=1060",
       title: "Program 3",
       isFeatured: false,
     },
     {
-      image: "https://api.builder.io/api/v1/image/assets/TEMP/5de439b9f4c7eb83cf8075f5e7506854de28ea35?width=1056",
+      image:
+        "https://api.builder.io/api/v1/image/assets/TEMP/5de439b9f4c7eb83cf8075f5e7506854de28ea35?width=1056",
       title: "Program 4",
       isFeatured: false,
     },
@@ -29,14 +34,16 @@ export default function AcademicPrograms() {
   return (
     <section className="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 relative overflow-hidden bg-white">
       <div className="absolute top-0 left-[-186px] w-[1878px] h-[305px] bg-apex-light-gray opacity-70 rotate-[-28deg]" />
-      
+
       <div className="w-full max-w-[1440px] mx-auto relative z-10">
         <h2 className="text-center text-2xl sm:text-3xl lg:text-[35px] font-medium mb-4">
           <span className="text-apex-orange">ACADEMIC</span>{" "}
           <span className="text-apex-orange font-bold">PROGRAMS</span>
         </h2>
         <p className="text-center text-lg sm:text-xl lg:text-[25px] text-[#5D5D5D] max-w-[931px] mx-auto mb-12 sm:mb-16 lg:mb-20 leading-relaxed">
-          Our programs provide a harmonious blend of theory, hands-on experience, and observation-based learning, fostering interactive environments that transcend conventional classrooms.
+          Our programs provide a harmonious blend of theory, hands-on
+          experience, and observation-based learning, fostering interactive
+          environments that transcend conventional classrooms.
         </p>
 
         <div className="flex gap-0 justify-center mb-12 lg:mb-16 flex-col sm:flex-row">
@@ -57,7 +64,9 @@ export default function AcademicPrograms() {
                 program.isFeatured ? "lg:col-span-1" : "lg:col-span-1"
               } bg-white shadow-md hover:shadow-xl overflow-hidden group cursor-pointer transition-all duration-300 rounded`}
             >
-              <div className={`${program.isFeatured ? "h-[300px] sm:h-[400px] lg:h-[480px]" : "h-[300px] sm:h-[400px] lg:h-[480px]"} overflow-hidden relative`}>
+              <div
+                className={`${program.isFeatured ? "h-[300px] sm:h-[400px] lg:h-[480px]" : "h-[300px] sm:h-[400px] lg:h-[480px]"} overflow-hidden relative`}
+              >
                 <img
                   src={program.image}
                   alt={program.title}
