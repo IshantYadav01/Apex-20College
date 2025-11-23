@@ -11,12 +11,12 @@ export default function Header() {
 
   return (
     <header className="bg-apex-gray h-[57px] flex items-center justify-between px-6 sm:px-8 lg:px-12 fixed top-0 left-0 right-0 z-50 w-full shadow-md">
-      <nav className="flex items-center gap-4 sm:gap-8 lg:gap-16 text-white flex-1 overflow-x-auto sm:overflow-visible">
+      <nav className="flex items-center gap-4 sm:gap-8 lg:gap-12 text-white flex-1 overflow-x-auto sm:overflow-visible">
         {navLinks.map((link, index) => (
           <Link
             key={index}
             to={link.path}
-            className="text-[20px] font-medium whitespace-nowrap transition-all duration-300 text-white hover:text-apex-orange hover:opacity-100 opacity-90"
+            className="text-base sm:text-lg lg:text-xl font-normal whitespace-nowrap transition-all duration-300 text-white hover:text-apex-orange hover:opacity-100 opacity-90"
           >
             {link.label}
           </Link>
