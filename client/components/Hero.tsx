@@ -7,14 +7,14 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent" />
-      
+
       <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
         <img
           src="https://api.builder.io/api/v1/image/assets/TEMP/698c8194c2f76ac36004020579e1a57bf6af22fb?width=718"
           alt="Apex College Logo"
           className="w-[359px] h-[73px] mb-20"
         />
-        
+
         <div className="flex gap-6 mt-12">
           <button className="bg-apex-maroon text-white px-12 py-3 rounded text-base font-medium hover:bg-opacity-90 transition-opacity">
             Explore Programs
