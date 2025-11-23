@@ -1,16 +1,16 @@
 export default function UniversityPartner() {
   return (
-    <section className="py-20 px-4 relative overflow-hidden">
+    <section className="py-16 sm:py-20 lg:py-24 px-4 sm:px-6 relative overflow-hidden bg-white">
       <div className="absolute top-0 left-[-160px] w-[1878px] h-[305px] bg-apex-light-gray opacity-70 rotate-[29deg]" />
 
-      <div className="max-w-7xl mx-auto relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="w-full max-w-[1440px] mx-auto relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
           <div>
-            <h2 className="text-[35px] font-medium mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-[35px] font-medium mb-4 sm:mb-6">
               <span className="text-apex-orange">UNIVERSITY</span>{" "}
               <span className="text-apex-orange font-bold">PARTNER</span>
             </h2>
-            <p className="text-2xl text-[#5D5D5D] font-medium">
+            <p className="text-lg sm:text-xl lg:text-2xl text-[#5D5D5D] font-medium leading-relaxed">
               Pokhara University (PU), conceived in 1986 and established 1997
               under the Pokhara University Act, is Nepal's third-ranked
               university. It aims to enhance access to higher education. The
@@ -19,9 +19,9 @@ export default function UniversityPartner() {
             </p>
           </div>
           <div className="relative">
-            <div className="relative w-full h-[491px] flex items-center justify-center">
+            <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[491px] flex items-center justify-center">
               <svg
-                className="absolute w-[236px] h-[236px]"
+                className="absolute w-[200px] sm:w-[220px] lg:w-[236px] h-auto"
                 width="187"
                 height="196"
                 viewBox="0 0 187 196"
@@ -35,13 +35,15 @@ export default function UniversityPartner() {
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/bd1d73ff0ad1b71860daacd03fa87f70011293dc?width=461"
                 alt="Pokhara University"
-                className="absolute w-[231px] h-[132px]"
+                className="absolute w-[150px] sm:w-[190px] lg:w-[231px] h-auto"
               />
             </div>
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/f680713f964f63acb886827b42569d3664d8012c?width=1474"
               alt="University Building"
-              className="w-full h-auto mt-4 rounded-lg"
+              className="w-full h-auto mt-4 sm:mt-6 lg:mt-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>
